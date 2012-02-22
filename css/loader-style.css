@@ -1,0 +1,58 @@
+/* Author:
+	Elliott Polk
+	elliott.polk@thekaroshiworkshop.com
+*/
+
+body {
+	background-color: #fff;
+}
+
+
+::-webkit-scrollbar {
+	background-color: #fff;
+	width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #1c1c1c;
+	box-shadow: inset 1px 1px 0 rgba(40,87,107,0.10), inset 0 -1px 0 rgba(40,87,107,0.07);
+}
+
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+
+div[role=main] {
+	background-color: #fff;
+	border: 0;
+}
+
+#load-wrapper {
+	position: relative;
+	margin: 160px auto;
+	width: 132px;
+	height: 18px;
+}
+
+.load-cell {
+	position: relative;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 7px;
+	height: 16px;
+}
+
+.lblu {
+	background-color: #c5e6f7;
+}
+
+.dblu {
+	background-color: #38ace8;
+}
